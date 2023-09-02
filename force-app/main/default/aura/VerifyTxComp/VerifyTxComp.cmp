@@ -1,0 +1,4 @@
+<aura:component controller="VerifyTx.Verification"  implements="force:lightningQuickAction,force:hasRecordId" >
+    <aura:handler name="init" value= "{!this}" action="{!c.echo}" />
+    <ltng:require styles="{!$Resource.HideModal}" />
+</aura:component>
