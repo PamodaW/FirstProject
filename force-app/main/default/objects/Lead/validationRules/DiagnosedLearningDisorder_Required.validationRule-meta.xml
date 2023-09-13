@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DiagnosedLearningDisorder_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Diagnosed_Learning_Disorder__c = TRUE,
+ISBLANK(Diagnosed_Learning_Disorder_Info__c)
+)</errorConditionFormula>
+    <errorDisplayField>Diagnosed_Learning_Disorder_Info__c</errorDisplayField>
+    <errorMessage>Please enter info about the Client&apos;s Diagnosed Learning Disorder.</errorMessage>
+</ValidationRule>

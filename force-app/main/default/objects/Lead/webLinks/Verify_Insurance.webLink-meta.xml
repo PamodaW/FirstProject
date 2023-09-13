@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verify_Insurance</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Verify Insurance</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/40.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/40.0/apex.js&quot;)} 
+
+var warning = confirm(&quot;You are submitting the request for a verification \nPlease wait until your request is processed.&quot;); 
+
+if (warning == true) 
+{ 
+var namespace_prefix=&apos;Verification&apos;; 
+var gettingnamespace=sforce.connection.query(&quot;SELECT NamespacePrefix FROM ApexClass where Name = &apos;Verification&apos; limit 1&quot;); 
+
+var getname=gettingnamespace.getArray(&quot;records&quot;); 
+
+if(getname.length&gt;0) 
+{ 
+namespace_prefix=getname[0].NamespacePrefix; 
+if(namespace_prefix!=null &amp;&amp; namespace_prefix!=&apos;&apos;) 
+{ 
+namespace_prefix=namespace_prefix+&apos;.&apos;+&apos;Verification&apos;; 
+
+} 
+else 
+{ 
+namespace_prefix=&apos;Verification&apos;; 
+} 
+
+} 
+var result=sforce.apex.execute(namespace_prefix,&quot;VerifyBenifits&quot;, 
+{ 
+RecordId:&quot;{!Lead.Id}&quot; 
+} 
+); 
+
+} 
+window.location.reload();</url>
+</WebLink>

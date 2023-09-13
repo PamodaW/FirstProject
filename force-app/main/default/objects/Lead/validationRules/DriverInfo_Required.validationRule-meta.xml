@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DriverInfo_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Do_you_drive__c = TRUE,
+OR(
+ISBLANK(Car_Color_Make_Model__c),
+ISBLANK(License_Plate__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Car_Color_Make_Model__c</errorDisplayField>
+    <errorMessage>Please enter the Client&apos;s Car Color/Make/Model, and License Plate #.</errorMessage>
+</ValidationRule>

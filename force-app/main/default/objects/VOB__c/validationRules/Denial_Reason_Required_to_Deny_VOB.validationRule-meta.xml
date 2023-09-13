@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Denial_Reason_Required_to_Deny_VOB</fullName>
+    <active>true</active>
+    <description>This rule will prevent users from denying VOB&apos;s without providing denial reason</description>
+    <errorConditionFormula>ISPICKVAL(Outcome__c, &apos;Denied&apos;)&amp;&amp; ISBlank(Denial_Reason__c)</errorConditionFormula>
+    <errorDisplayField>Denial_Reason__c</errorDisplayField>
+    <errorMessage>Denial reason is required when outcome is denied</errorMessage>
+</ValidationRule>

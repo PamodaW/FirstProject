@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MeetandGreetScheduled_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status, &quot;6-Meet &amp; Greet Scheduled&quot;),
+ISBLANK(SOC_Scheduled_Date__c)
+)</errorConditionFormula>
+    <errorMessage>Make sure Meet &amp; Greet Date has been completed prior to moving the Lead Status to &quot;Meet &amp; Greet Scheduled&quot;.</errorMessage>
+</ValidationRule>

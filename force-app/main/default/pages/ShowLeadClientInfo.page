@@ -1,0 +1,11 @@
+<apex:page standardController="LeadClientInsurance__c">
+    <apex:param name="FirstName" value="{!$LeadClientInsurance__c.parameters.First_Name__c}" assignTo="{!First_Name__c}" />
+    <apex:param name="LastName" value="{!$LeadClientInsurance__c.parameters.Last_Name__c}" assignTo="{!Last_Name__c}" />
+    <apex:param name="MiddleName" value="{!$LeadClientInsurance__c.parameters.Middle_Name__c}" assignTo="{!Middle_Name__c}" />
+    <apex:param name="Suffix" value="{!$LeadClientInsurance__c.parameters.Suffix__c}" assignTo="{!Suffix__c}" />
+    <apex:param name="DateOfBirth" value="{!$LeadClientInsurance__c.parameters.Date_Of_Birth__c}" assignTo="{!Date_Of_Birth__c}" />
+    <apex:param name="Email" value="{!$LeadClientInsurance__c.parameters.Email__c}" assignTo="{!Email__c}" />
+    <apex:param name="PhoneNumber" value="{!$LeadClientInsurance__c.parameters.Phone_Number__c}" assignTo="{!Phone_Number__c}" />
+
+    <!-- Your Visualforce page content here -->
+</apex:page>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Hold_Reason</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status, &quot;On Hold&quot;),
+ISPICKVAL(On_Hold_Reason__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorMessage>Please select an On Hold Reason</errorMessage>
+</ValidationRule>

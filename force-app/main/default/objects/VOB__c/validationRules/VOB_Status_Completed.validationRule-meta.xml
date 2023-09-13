@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VOB_Status_Completed</fullName>
+    <active>true</active>
+    <description>Fields must be filled in for vob to be completed status</description>
+    <errorConditionFormula>ISPICKVAL(Status__c, &quot;completed&quot;)  &amp;&amp; (ISPICKVAL( Insurance_Status__c, &quot;&quot;) || ISPICKVAL( Plan_Type__c, &quot;&quot;) || ISPICKVAL( Renews_On__c, &quot;&quot;) || ISBLANK( Coverage_Start_Date__c) || ISBLANK( Coverage_End_Date__c))</errorConditionFormula>
+    <errorMessage>You cannot complete the VOB until the following fields are entered: 
+1. Representative Name
+2. Reference#
+3. Insurance Status
+4. Plan Type
+5. Renewal Type
+6. Coverage Start Date
+7. Coverage End Date</errorMessage>
+</ValidationRule>

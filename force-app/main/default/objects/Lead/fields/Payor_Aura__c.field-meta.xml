@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payor_Aura__c</fullName>
+    <externalId>false</externalId>
+    <label>Payor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aetna - OON</fullName>
+                <default>false</default>
+                <label>Aetna - OON</label>
+            </value>
+            <value>
+                <fullName>BCBS - Anthem CT</fullName>
+                <default>false</default>
+                <label>BCBS - Anthem CT</label>
+            </value>
+            <value>
+                <fullName>BCBS - Anthem ME</fullName>
+                <default>false</default>
+                <label>BCBS - Anthem ME</label>
+            </value>
+            <value>
+                <fullName>BCBS - Anthem NH</fullName>
+                <default>false</default>
+                <label>BCBS - Anthem NH</label>
+            </value>
+            <value>
+                <fullName>Beacon Health Options -</fullName>
+                <default>false</default>
+                <label>Beacon Health Options -</label>
+            </value>
+            <value>
+                <fullName>Cigna - OON</fullName>
+                <default>false</default>
+                <label>Cigna - OON</label>
+            </value>
+            <value>
+                <fullName>Connecticare (Optum) - OON</fullName>
+                <default>false</default>
+                <label>Connecticare (Optum) - OON</label>
+            </value>
+            <value>
+                <fullName>CT - BCBS of MA</fullName>
+                <default>false</default>
+                <label>CT - BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>CT - All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>CT - All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>CT - BCBS of RI</fullName>
+                <default>false</default>
+                <label>CT - BCBS of RI</label>
+            </value>
+            <value>
+                <fullName>FL-BCBS</fullName>
+                <default>false</default>
+                <label>FL-BCBS</label>
+            </value>
+            <value>
+                <fullName>Harvard Pilgrim (Optum) - OON</fullName>
+                <default>false</default>
+                <label>Harvard Pilgrim (Optum) - OON</label>
+            </value>
+            <value>
+                <fullName>Humana</fullName>
+                <default>false</default>
+                <label>Humana</label>
+            </value>
+            <value>
+                <fullName>Magellan</fullName>
+                <default>false</default>
+                <label>Magellan</label>
+            </value>
+            <value>
+                <fullName>ME - All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>ME - All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>ME - BCBS of MA</fullName>
+                <default>false</default>
+                <label>ME - BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>ME - BCBS of RI</fullName>
+                <default>false</default>
+                <label>ME - BCBS of RI</label>
+            </value>
+            <value>
+                <fullName>ME - VA</fullName>
+                <default>false</default>
+                <label>ME - VA</label>
+            </value>
+            <value>
+                <fullName>Medicare - OON</fullName>
+                <default>false</default>
+                <label>Medicare - OON</label>
+            </value>
+            <value>
+                <fullName>NH - All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>NH - All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>NH - BCBS of MA</fullName>
+                <default>false</default>
+                <label>NH - BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>NH - BCBS of RI</fullName>
+                <default>false</default>
+                <label>NH - BCBS of RI</label>
+            </value>
+            <value>
+                <fullName>Optum - OON</fullName>
+                <default>false</default>
+                <label>Optum - OON</label>
+            </value>
+            <value>
+                <fullName>Oxford - OON</fullName>
+                <default>false</default>
+                <label>Oxford - OON</label>
+            </value>
+            <value>
+                <fullName>Tufts - Tufts</fullName>
+                <default>false</default>
+                <label>Tufts - Tufts</label>
+            </value>
+            <value>
+                <fullName>Unassigned Funding</fullName>
+                <default>false</default>
+                <label>Unassigned Funding</label>
+            </value>
+            <value>
+                <fullName>United Health Care (Optum) - OON</fullName>
+                <default>false</default>
+                <label>United Health Care (Optum) - OON</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

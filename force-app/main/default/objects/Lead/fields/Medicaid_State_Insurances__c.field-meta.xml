@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medicaid_State_Insurances__c</fullName>
+    <externalId>false</externalId>
+    <label>Medicaid/State Insurances</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Insurance_Carrier_Name__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CT Medicaid</fullName>
+                <default>false</default>
+                <label>CT Medicaid</label>
+            </value>
+            <value>
+                <fullName>FL Medicaid</fullName>
+                <default>false</default>
+                <label>FL Medicaid</label>
+            </value>
+            <value>
+                <fullName>IN Medicaid</fullName>
+                <default>false</default>
+                <label>IN Medicaid</label>
+            </value>
+            <value>
+                <fullName>KY Medicaid</fullName>
+                <default>false</default>
+                <label>KY Medicaid</label>
+            </value>
+            <value>
+                <fullName>MA Medicaid</fullName>
+                <default>false</default>
+                <label>MA Medicaid</label>
+            </value>
+            <value>
+                <fullName>ME Medicaid</fullName>
+                <default>false</default>
+                <label>ME Medicaid</label>
+            </value>
+            <value>
+                <fullName>NH Medicaid</fullName>
+                <default>false</default>
+                <label>NH Medicaid</label>
+            </value>
+            <value>
+                <fullName>OH Medicaid</fullName>
+                <default>false</default>
+                <label>OH Medicaid</label>
+            </value>
+            <value>
+                <fullName>RI Medicaid</fullName>
+                <default>false</default>
+                <label>RI Medicaid</label>
+            </value>
+            <value>
+                <fullName>VA Medicaid</fullName>
+                <default>false</default>
+                <label>VA Medicaid</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Medicaid/State Insurance</controllingFieldValue>
+            <valueName>CT Medicaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medicaid/State Insurance</controllingFieldValue>
+            <valueName>FL Medicaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medicaid/State Insurance</controllingFieldValue>
+            <valueName>IN Medicaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medicaid/State Insurance</controllingFieldValue>
+            <valueName>KY Medicaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medicaid/State Insurance</controllingFieldValue>
+            <valueName>MA Medicaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medicaid/State Insurance</controllingFieldValue>
+            <valueName>ME Medicaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medicaid/State Insurance</controllingFieldValue>
+            <valueName>NH Medicaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medicaid/State Insurance</controllingFieldValue>
+            <valueName>OH Medicaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medicaid/State Insurance</controllingFieldValue>
+            <valueName>RI Medicaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medicaid/State Insurance</controllingFieldValue>
+            <valueName>VA Medicaid</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

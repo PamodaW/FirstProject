@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CurrentPsychiatrist_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ Current_Psychiatrist__c   = TRUE,
+ISBLANK(  Current_Psychiatrist_Info__c   )
+)</errorConditionFormula>
+    <errorDisplayField>Current_Psychiatrist_Info__c</errorDisplayField>
+    <errorMessage>Please enter info about the Client&apos;s Current Psychiatrist.</errorMessage>
+</ValidationRule>

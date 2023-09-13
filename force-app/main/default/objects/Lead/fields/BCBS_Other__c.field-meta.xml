@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BCBS_Other__c</fullName>
+    <externalId>false</externalId>
+    <label>BCBS Other</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Insurance_Carrier_Name__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>BCBS_Global</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Empire BCBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Federal BCBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Florida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Massachusetts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Rhode Island</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Horizon Blue Cross Blue Shield of New Jersey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Alabama</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Arizona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Arkansas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Shield of California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross of Idaho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Illinois</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross and Blue Shield of Kansas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross and Blue Shield of Kansas City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>BlueCross BlueShield of Louisiana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Michigan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Minnesota</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Mississippi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Montana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Nebraska</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of New Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of North Carolina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of North Dakota</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Oklahoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of South Carolina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Tennessee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Texas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of the U.S. Virgin Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Vermont</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Western New York</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Cross Blue Shield of Wyoming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Blue Shield of Northeastern New York (A division of HealthNow New York Inc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Capital Blue Cross (Central Pennsylvania)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Capital Health Plan (Big Bend region of Florida)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>CareFirst (D.C., Maryland, Parts of Virginia)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Excellus BlueCross Blue Shield (Central New York, Rochester, Utica/Watertown)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Florida Health Care Plans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Hawaii Medical Service Association (BCBS HI)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Highmark Blue Cross Blue Shield (Western and Northeastern Pennsylvania)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Highmark Blue Cross Blue Shield Delaware (Delaware)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Highmark Blue Cross Blue Shield of Western New York (New York)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Highmark Blue Cross Blue Shield West Virginia (West Virginia)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Highmark Blue Shield (Eastern &amp; Central Pennsylvania)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Highmark Blue Shield of Northeastern New York (New York)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Independence Blue Cross (Philadelphia, Southeastern Pennsylvania)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Premera Blue Cross (Washington)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Premera Blue Cross Blue Shield of Alaska</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Regence Blue Cross Blue Shield of Oregon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Regence BlueCross BlueShield of Utah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Regence BlueShield (Washington)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BCBS Other</controllingFieldValue>
+            <valueName>Regence BlueShield of Idaho</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

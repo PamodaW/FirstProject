@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_helpful_was_our_website_in_decision__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>How helpful was our website in your decision-making process?</inlineHelpText>
+    <label>How helpful was our website in decision?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Extremely helpful</fullName>
+                <default>false</default>
+                <label>Extremely helpful</label>
+            </value>
+            <value>
+                <fullName>Somewhat helpful</fullName>
+                <default>false</default>
+                <label>Somewhat helpful</label>
+            </value>
+            <value>
+                <fullName>Not helpful</fullName>
+                <default>false</default>
+                <label>Not helpful</label>
+            </value>
+            <value>
+                <fullName>Not a factor in decision</fullName>
+                <default>false</default>
+                <label>Not a factor in decision</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Midwest_Follow_Up</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 4) AND 5 AND 6</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>Admissions_Location__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
+    <columns>Insurance_Carrier_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>8-Qualified,9-Unqualified,On Hold</value>
+    </filters>
+    <filters>
+        <field>LEAD.LAST_ACTIVITY</field>
+        <operation>lessThan</operation>
+        <value>6/30/2023</value>
+    </filters>
+    <filters>
+        <field>Insurance_Carrier_Name__c</field>
+        <operation>equals</operation>
+        <value>Anthem,Tufts,Unicare</value>
+    </filters>
+    <filters>
+        <field>BCBS_Other__c</field>
+        <operation>equals</operation>
+        <value>Federal BCBS,Blue Cross Blue Shield of Florida,Blue Cross Blue Shield of Massachusetts,Blue Cross Blue Shield of Rhode Island</value>
+    </filters>
+    <filters>
+        <field>LEAD.LAST_ACTIVITY</field>
+        <operation>greaterThan</operation>
+        <value>10/1/2022</value>
+    </filters>
+    <filters>
+        <field>Admissions_Location__c</field>
+        <operation>equals</operation>
+        <value>Indiana,Kentucky,Ohio</value>
+    </filters>
+    <label>Midwest Follow Up</label>
+</ListView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Use_Each_Status</fullName>
+    <active>false</active>
+    <description>Makes users go through each status in a lead</description>
+    <errorConditionFormula>CASE(Status,
+&quot;1-Lead Identified&quot;,1,
+&quot;2-Insurance Verification Completed&quot;,2,
+&quot;3-Intake Completed&quot;,3,
+&quot;4-BPS Completed&quot;,4,
+&quot;5-Clinical Clearance Completed&quot;,5,
+&quot;6-SOC Scheduled&quot;,6,
+&quot;7-First Visit Scheduled&quot;,7,
+&quot;8-Qualified&quot;,8,
+0)
+&gt;
+CASE(PRIORVALUE(Status),
+&quot;1-Lead Identified&quot;,1,
+&quot;2-Insurance Verification Completed&quot;,2,
+&quot;3-Intake Completed&quot;,3,
+&quot;4-BPS Completed&quot;,4,
+&quot;5-Clinical Clearance Completed&quot;,5,
+&quot;6-SOC Scheduled&quot;,6,
+&quot;7-First Visit Scheduled&quot;,7,
+&quot;8-Qualified&quot;,8,
+0) + 1</errorConditionFormula>
+    <errorMessage>You cannot Skip Statuses. You can only move to the next stage</errorMessage>
+</ValidationRule>

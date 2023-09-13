@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Occupation_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Occupation Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>Part time</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>Student</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>Full-time (35+ hr/week)</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>Homemaker</label>
+            </value>
+            <value>
+                <fullName>10</fullName>
+                <default>false</default>
+                <label>Part-time (irregular hours)</label>
+            </value>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>Part-time (regular hours)</label>
+            </value>
+            <value>
+                <fullName>12</fullName>
+                <default>false</default>
+                <label>Retired/Disability</label>
+            </value>
+            <value>
+                <fullName>14</fullName>
+                <default>false</default>
+                <label>Unemployed</label>
+            </value>
+            <value>
+                <fullName>70</fullName>
+                <default>false</default>
+                <label>Retired</label>
+            </value>
+            <value>
+                <fullName>71</fullName>
+                <default>false</default>
+                <label>Disabled</label>
+            </value>
+            <value>
+                <fullName>72</fullName>
+                <default>false</default>
+                <label>Not Answered</label>
+            </value>
+            <value>
+                <fullName>73</fullName>
+                <default>false</default>
+                <label>Medical Leave</label>
+            </value>
+            <value>
+                <fullName>74</fullName>
+                <default>false</default>
+                <label>Military</label>
+            </value>
+            <value>
+                <fullName>75</fullName>
+                <default>false</default>
+                <label>In Controlled Environment</label>
+            </value>
+            <value>
+                <fullName>Disability</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Disability-Old</label>
+            </value>
+            <value>
+                <fullName>Disabled</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Disabled-Old</label>
+            </value>
+            <value>
+                <fullName>Full-Time (35+ hr/week)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full-Time (35+ hr/week)-Old</label>
+            </value>
+            <value>
+                <fullName>Homemaker</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Homemaker-Old</label>
+            </value>
+            <value>
+                <fullName>In Controlled Environment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>In Controlled Environment-Old</label>
+            </value>
+            <value>
+                <fullName>Medical Leave</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Medical Leave-Old</label>
+            </value>
+            <value>
+                <fullName>Military</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Military-Old</label>
+            </value>
+            <value>
+                <fullName>Not Answered</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Answered-Old</label>
+            </value>
+            <value>
+                <fullName>Part-time (irregular hours)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Part-time (irregular hours)-Old</label>
+            </value>
+            <value>
+                <fullName>Part-time (regular hours)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Part-time (regular hours)-Old</label>
+            </value>
+            <value>
+                <fullName>Part-time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Part-time-Old</label>
+            </value>
+            <value>
+                <fullName>Retired</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Retired-Old</label>
+            </value>
+            <value>
+                <fullName>Student</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student-Old</label>
+            </value>
+            <value>
+                <fullName>Unemployed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Unemployed-Old</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

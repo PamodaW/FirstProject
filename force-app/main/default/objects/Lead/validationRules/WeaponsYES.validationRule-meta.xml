@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WeaponsYES</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( Do_you_have_any_weapons_in_your_home__c, &quot;Yes&quot;),
+ISPICKVAL (Are_they_secured_locked_up__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorMessage>Please ask if their weapons are secured.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompulsiveBehaviors_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Compulsive_Behaviors__c, &quot;Other&quot;),
+ISBLANK(Compulsive_Behaviors_Other__c)
+)</errorConditionFormula>
+    <errorDisplayField>Compulsive_Behaviors_Other__c</errorDisplayField>
+    <errorMessage>Please enter an &quot;Other&quot; explanation in the Compulsive Behaviors Other field.</errorMessage>
+</ValidationRule>

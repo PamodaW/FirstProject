@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_steps_for_referral__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Picklist field for providers referring patients via the website.</inlineHelpText>
+    <label>Next steps for referral</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contact Me</fullName>
+                <default>false</default>
+                <label>Contact Me</label>
+            </value>
+            <value>
+                <fullName>Contact Patient</fullName>
+                <default>false</default>
+                <label>Contact Patient</label>
+            </value>
+            <value>
+                <fullName>Patient will contact Aware Recovery Care</fullName>
+                <default>false</default>
+                <label>Patient will contact Aware Recovery Care</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

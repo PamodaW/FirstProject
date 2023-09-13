@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adam_Carey_Open_Leads</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Admissions_Location__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Insurance_Carrier_Name__c</columns>
+    <columns>Insurance_Carrier_Other__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>carey</value>
+    </filters>
+    <filters>
+        <field>Outreach_Rep__c</field>
+        <operation>equals</operation>
+        <value>Adam Carey</value>
+    </filters>
+    <label>Adam Carey Open Leads</label>
+</ListView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VOB_Completed_Plan_Type</fullName>
+    <active>true</active>
+    <description>Fields must be filled in for vob to be completed status</description>
+    <errorConditionFormula>ISPICKVAL(Status__c, &quot;completed&quot;)  &amp;&amp; (ISPICKVAL( Plan_Type__c, &quot;&quot;))</errorConditionFormula>
+    <errorDisplayField>Insurance_Status__c</errorDisplayField>
+    <errorMessage>Please select the insurance status.</errorMessage>
+</ValidationRule>

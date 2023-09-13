@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LegalIssues_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Legal_Issues_Present__c   = TRUE,
+ISBLANK(Legal_Issues_Explanation__c   )
+)</errorConditionFormula>
+    <errorDisplayField>Legal_Issues_Explanation__c</errorDisplayField>
+    <errorMessage>Please enter info about the Client&apos;s current Legal Issues.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Language_Ability__c</fullName>
+    <externalId>false</externalId>
+    <label>Language Ability</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Expressed Signed</fullName>
+                <default>false</default>
+                <label>Expressed Signed</label>
+            </value>
+            <value>
+                <fullName>Expressed Spoken</fullName>
+                <default>false</default>
+                <label>Expressed Spoken</label>
+            </value>
+            <value>
+                <fullName>Expressed Written</fullName>
+                <default>false</default>
+                <label>Expressed Written</label>
+            </value>
+            <value>
+                <fullName>Received Signed</fullName>
+                <default>false</default>
+                <label>Received Signed</label>
+            </value>
+            <value>
+                <fullName>Received Spoken</fullName>
+                <default>false</default>
+                <label>Received Spoken</label>
+            </value>
+            <value>
+                <fullName>Received Written</fullName>
+                <default>false</default>
+                <label>Received Written</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

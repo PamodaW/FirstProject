@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Race_AURA__c</fullName>
+    <externalId>false</externalId>
+    <label>Race AURA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>African American/Black</fullName>
+                <default>false</default>
+                <label>African American/Black</label>
+            </value>
+            <value>
+                <fullName>American Indian/ Native Alaskin</fullName>
+                <default>false</default>
+                <label>American Indian/ Native Alaskin</label>
+            </value>
+            <value>
+                <fullName>Asian</fullName>
+                <default>false</default>
+                <label>Asian</label>
+            </value>
+            <value>
+                <fullName>Hawaiian/Other Pacific Islander</fullName>
+                <default>false</default>
+                <label>Hawaiian/Other Pacific Islander</label>
+            </value>
+            <value>
+                <fullName>Multiple Races</fullName>
+                <default>false</default>
+                <label>Multiple Races</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>White/Caucasian</fullName>
+                <default>false</default>
+                <label>White/Caucasian</label>
+            </value>
+            <value>
+                <fullName>Prefer not to answer/Unknown</fullName>
+                <default>false</default>
+                <label>Prefer not to answer/Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

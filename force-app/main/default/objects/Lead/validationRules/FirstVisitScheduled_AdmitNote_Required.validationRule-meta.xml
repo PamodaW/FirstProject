@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FirstVisitScheduled_AdmitNote_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status, &quot;First Visit Scheduled&quot;),
+Admit_Note_Completed_and_Sent__c = FALSE
+)</errorConditionFormula>
+    <errorMessage>Make sure the Admit Note checkbox has been completed prior to moving the Lead Status to &quot;First Visit Scheduled&quot;.</errorMessage>
+</ValidationRule>

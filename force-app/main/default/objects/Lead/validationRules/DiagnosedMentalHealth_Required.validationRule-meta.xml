@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DiagnosedMentalHealth_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Diagnosed_Mental_Health_Issue__c = TRUE,
+ISBLANK(Diagnosed_Mental_Health_Issue_Info__c)
+)</errorConditionFormula>
+    <errorDisplayField>Diagnosed_Mental_Health_Issue_Info__c</errorDisplayField>
+    <errorMessage>Please enter info about the Client&apos;s Diagnosed Mental Health Issues.</errorMessage>
+</ValidationRule>

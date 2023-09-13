@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DesignatedPOA_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Designated_Power_of_Attorney_in_Place__c = TRUE,
+ISBLANK(Designated_Power_of_Attorney_Info__c)
+)</errorConditionFormula>
+    <errorDisplayField>Designated_Power_of_Attorney_Info__c</errorDisplayField>
+    <errorMessage>Please enter info about the Client&apos;s Designated POA.</errorMessage>
+</ValidationRule>

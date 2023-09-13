@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualified_ASAM_Checkbox_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( Status , &quot;Qualified&quot;),
+ASAM_Complete__c = FALSE
+)</errorConditionFormula>
+    <errorMessage>Please make sure the ASAM Completed checkbox is checked before converting this Lead.</errorMessage>
+</ValidationRule>

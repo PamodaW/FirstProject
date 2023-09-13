@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DiagnosedEatingDisorder_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Diagnosed_Eating_Disorder__c = TRUE,
+ISPICKVAL(Eating_Disorder_Type__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Eating_Disorder_Type__c</errorDisplayField>
+    <errorMessage>Please select an Eating Disorder Type.</errorMessage>
+</ValidationRule>

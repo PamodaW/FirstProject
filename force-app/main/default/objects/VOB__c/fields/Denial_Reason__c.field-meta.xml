@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Denial_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Denial Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Insurance Not Contracted</fullName>
+                <default>false</default>
+                <label>Pt Insurance Not In-network</label>
+            </value>
+            <value>
+                <fullName>Insurance inactive</fullName>
+                <default>false</default>
+                <label>Insurance inactive</label>
+            </value>
+            <value>
+                <fullName>Patient&apos;s policy not in network</fullName>
+                <default>false</default>
+                <label>Pt Plan Not In-network</label>
+            </value>
+            <value>
+                <fullName>Patient&apos;s plan administered by a TPA, cannot accept</fullName>
+                <default>false</default>
+                <label>Patient&apos;s plan administered by a TPA, cannot accept</label>
+            </value>
+            <value>
+                <fullName>IHAT Services Not Covered at POS Home</fullName>
+                <default>false</default>
+                <label>IHAT Services Not Covered at POS Home</label>
+            </value>
+            <value>
+                <fullName>IHAT Codes Not Covered</fullName>
+                <default>false</default>
+                <label>IHAT Codes Not Covered</label>
+            </value>
+            <value>
+                <fullName>HWM Codes Not Covered</fullName>
+                <default>false</default>
+                <label>HWM Codes Not Covered</label>
+            </value>
+            <value>
+                <fullName>IHWM Services Not Covered at POS Home</fullName>
+                <default>false</default>
+                <label>IHWM Services Not Covered at POS Home</label>
+            </value>
+            <value>
+                <fullName>COB Needed, unable to verify primary insurance benefits</fullName>
+                <default>false</default>
+                <label>COB Needed, unable to verify primary insurance benefits</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

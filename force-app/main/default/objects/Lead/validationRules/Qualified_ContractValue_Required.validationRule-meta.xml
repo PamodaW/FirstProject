@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualified_ContractValue_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( Status , &quot;Qualified&quot;),
+OR(
+ISBLANK( Contract_Value__c ),
+ISPICKVAL( Contract_Payer__c , &quot;&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>Please enter the Contract Value and select the Contract Payer.</errorMessage>
+</ValidationRule>

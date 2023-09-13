@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X5_Clinical_Clearance_Meet_Greet_Set__c</fullName>
+    <externalId>false</externalId>
+    <formula>Time_Stamp_Meet_Greet_Scheduled__c - Time_Stamp_Clinical_clearance_completed__c</formula>
+    <label>5 Clinical Clearance&lt;&gt;SOC Scheduled</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

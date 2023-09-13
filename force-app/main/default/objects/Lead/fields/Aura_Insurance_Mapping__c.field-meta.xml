@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aura_Insurance_Mapping__c</fullName>
+    <externalId>false</externalId>
+    <label>Aura Insurance Mapping</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aetna - OON</fullName>
+                <default>false</default>
+                <label>Aetna - OON</label>
+            </value>
+            <value>
+                <fullName>Anthem CT</fullName>
+                <default>false</default>
+                <label>Anthem CT</label>
+            </value>
+            <value>
+                <fullName>Anthem IN</fullName>
+                <default>false</default>
+                <label>Anthem IN</label>
+            </value>
+            <value>
+                <fullName>Anthem ME</fullName>
+                <default>false</default>
+                <label>Anthem ME</label>
+            </value>
+            <value>
+                <fullName>Anthem NH</fullName>
+                <default>false</default>
+                <label>Anthem NH</label>
+            </value>
+            <value>
+                <fullName>Anthem KY</fullName>
+                <default>false</default>
+                <label>Anthem KY</label>
+            </value>
+            <value>
+                <fullName>Anthem VA</fullName>
+                <default>false</default>
+                <label>Anthem VA</label>
+            </value>
+            <value>
+                <fullName>Anthem OH</fullName>
+                <default>false</default>
+                <label>Anthem OH</label>
+            </value>
+            <value>
+                <fullName>Beacon Health Options -</fullName>
+                <default>false</default>
+                <label>Beacon Health Options -</label>
+            </value>
+            <value>
+                <fullName>Cigna - OON</fullName>
+                <default>false</default>
+                <label>Cigna - OON</label>
+            </value>
+            <value>
+                <fullName>Connecticare (Optum) - OON</fullName>
+                <default>false</default>
+                <label>Connecticare (Optum) - OON</label>
+            </value>
+            <value>
+                <fullName>CT - All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>CT - All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>CT - BCBS of MA</fullName>
+                <default>false</default>
+                <label>CT - BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>CT - BCBS of RI</fullName>
+                <default>false</default>
+                <label>CT - BCBS of RI</label>
+            </value>
+            <value>
+                <fullName>CT - Federal (Anthem/BCBS)</fullName>
+                <default>false</default>
+                <label>CT - Federal (Anthem/BCBS)</label>
+            </value>
+            <value>
+                <fullName>FL-All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>FL-All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>FL- BCBS of MA</fullName>
+                <default>false</default>
+                <label>FL- BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>FL-NDBH</fullName>
+                <default>false</default>
+                <label>FL-NDBH</label>
+            </value>
+            <value>
+                <fullName>Harvard Pilgrim (Optum) - OON</fullName>
+                <default>false</default>
+                <label>Harvard Pilgrim (Optum) - OON</label>
+            </value>
+            <value>
+                <fullName>Humana</fullName>
+                <default>false</default>
+                <label>Humana</label>
+            </value>
+            <value>
+                <fullName>IN -All Other Anthem</fullName>
+                <default>false</default>
+                <label>IN -All Other Anthem</label>
+            </value>
+            <value>
+                <fullName>IN - BCBS of MA</fullName>
+                <default>false</default>
+                <label>IN - BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>IN-Federal (Anthem/BCBS)</fullName>
+                <default>false</default>
+                <label>IN-Federal (Anthem/BCBS)</label>
+            </value>
+            <value>
+                <fullName>KY- BCBS of RI</fullName>
+                <default>false</default>
+                <label>KY- BCBS of RI</label>
+            </value>
+            <value>
+                <fullName>KY- BCBS of MA</fullName>
+                <default>false</default>
+                <label>KY- BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>KY- Federal (Anthem/BCBS)</fullName>
+                <default>false</default>
+                <label>KY- Federal (Anthem/BCBS)</label>
+            </value>
+            <value>
+                <fullName>KY-All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>KY-All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>MA- All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>MA- All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>MA-BCBS of MA</fullName>
+                <default>false</default>
+                <label>MA-BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>MA- TUFTS</fullName>
+                <default>false</default>
+                <label>MA- TUFTS</label>
+            </value>
+            <value>
+                <fullName>MA-Unicare</fullName>
+                <default>false</default>
+                <label>MA-Unicare</label>
+            </value>
+            <value>
+                <fullName>ME - All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>ME - All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>ME - BCBS of MA</fullName>
+                <default>false</default>
+                <label>ME - BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>ME - BCBS of RI</fullName>
+                <default>false</default>
+                <label>ME - BCBS of RI</label>
+            </value>
+            <value>
+                <fullName>Medicare - OON</fullName>
+                <default>false</default>
+                <label>Medicare - OON</label>
+            </value>
+            <value>
+                <fullName>ME - Federal (Anthem/BCBS)</fullName>
+                <default>false</default>
+                <label>ME - Federal (Anthem/BCBS)</label>
+            </value>
+            <value>
+                <fullName>ME- TUFTS</fullName>
+                <default>false</default>
+                <label>ME- TUFTS</label>
+            </value>
+            <value>
+                <fullName>ME - VA</fullName>
+                <default>false</default>
+                <label>ME - VA</label>
+            </value>
+            <value>
+                <fullName>NH - All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>NH - All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>NH - BCBS of MA</fullName>
+                <default>false</default>
+                <label>NH - BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>NH - BCBS of RI</fullName>
+                <default>false</default>
+                <label>NH - BCBS of RI</label>
+            </value>
+            <value>
+                <fullName>NH - Federal (Anthem/BCBS)</fullName>
+                <default>false</default>
+                <label>NH - Federal (Anthem/BCBS)</label>
+            </value>
+            <value>
+                <fullName>NH-TUFTS</fullName>
+                <default>false</default>
+                <label>NH-TUFTS</label>
+            </value>
+            <value>
+                <fullName>Optum - OON</fullName>
+                <default>false</default>
+                <label>Optum - OON</label>
+            </value>
+            <value>
+                <fullName>Oxford - OON</fullName>
+                <default>false</default>
+                <label>Oxford - OON</label>
+            </value>
+            <value>
+                <fullName>RI- All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>RI- All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>RI- BCBS of MA</fullName>
+                <default>false</default>
+                <label>RI- BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>RI- BCBS of RI</fullName>
+                <default>false</default>
+                <label>RI- BCBS of RI</label>
+            </value>
+            <value>
+                <fullName>RI- Federal (Anthem/BCBS)</fullName>
+                <default>false</default>
+                <label>RI- Federal (Anthem/BCBS)</label>
+            </value>
+            <value>
+                <fullName>VA- All other anthem plans</fullName>
+                <default>false</default>
+                <label>VA- All other anthem plans</label>
+            </value>
+            <value>
+                <fullName>VA- BCBS of MA</fullName>
+                <default>false</default>
+                <label>VA- BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>VA- BCBS of RI</fullName>
+                <default>false</default>
+                <label>VA- BCBS of RI</label>
+            </value>
+            <value>
+                <fullName>VA- Federal (Anthem/BCBS)</fullName>
+                <default>false</default>
+                <label>VA- Federal (Anthem/BCBS)</label>
+            </value>
+            <value>
+                <fullName>OH - BCBS of MA</fullName>
+                <default>false</default>
+                <label>OH - BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>OH - BCBS of RI</fullName>
+                <default>false</default>
+                <label>OH - BCBS of RI</label>
+            </value>
+            <value>
+                <fullName>OH - Federal (Anthem/BCBS)</fullName>
+                <default>false</default>
+                <label>OH - Federal (Anthem/BCBS)</label>
+            </value>
+            <value>
+                <fullName>OH-All Other Anthem Plans</fullName>
+                <default>false</default>
+                <label>OH-All Other Anthem Plans</label>
+            </value>
+            <value>
+                <fullName>United Health Care (Optum) - OON</fullName>
+                <default>false</default>
+                <label>United Health Care (Optum) - OON</label>
+            </value>
+            <value>
+                <fullName>Scholarship</fullName>
+                <default>false</default>
+                <label>Scholarship</label>
+            </value>
+            <value>
+                <fullName>Unassigned Funding</fullName>
+                <default>false</default>
+                <label>Unassigned Funding</label>
+            </value>
+            <value>
+                <fullName>Anthem - Century Preferred</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Anthem - Century Preferred</label>
+            </value>
+            <value>
+                <fullName>BCBS - Anthem CT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BCBS - Anthem CT</label>
+            </value>
+            <value>
+                <fullName>BCBS - Anthem ME</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BCBS - Anthem ME</label>
+            </value>
+            <value>
+                <fullName>BCBS - Anthem NH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BCBS - Anthem NH</label>
+            </value>
+            <value>
+                <fullName>BCBS - BCBS of ME</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BCBS - BCBS of ME</label>
+            </value>
+            <value>
+                <fullName>BCBS - OON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BCBS - OON</label>
+            </value>
+            <value>
+                <fullName>CT - BCBS MA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CT - BCBS MA</label>
+            </value>
+            <value>
+                <fullName>CT - Husky</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CT - Husky</label>
+            </value>
+            <value>
+                <fullName>CT - LHV EAP (AWE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CT - LHV EAP (AWE</label>
+            </value>
+            <value>
+                <fullName>CT - Taft Hartley IUOE 478 (ELH)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CT - Taft Hartley IUOE 478 (ELH)</label>
+            </value>
+            <value>
+                <fullName>Empire BCBS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Empire BCBS</label>
+            </value>
+            <value>
+                <fullName>FL - (Anthem all other)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FL - (Anthem all other)</label>
+            </value>
+            <value>
+                <fullName>FL - BCBS of MA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FL - BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>FL - NDBH</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FL - NDBH</label>
+            </value>
+            <value>
+                <fullName>MA - Anthem All Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MA - Anthem All Other</label>
+            </value>
+            <value>
+                <fullName>MA - BCBS of MA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MA - BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>ME - LHV EAP (AWE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ME - LHV EAP (AWE</label>
+            </value>
+            <value>
+                <fullName>Magellan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Magellan</label>
+            </value>
+            <value>
+                <fullName>NH - Anthem NEHP (New England Health Plan)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NH - Anthem NEHP (New England Health Plan)</label>
+            </value>
+            <value>
+                <fullName>NH - LHV EAP (AWE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NH - LHV EAP (AWE</label>
+            </value>
+            <value>
+                <fullName>SureScripts - SureScripts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SureScripts - SureScripts</label>
+            </value>
+            <value>
+                <fullName>Tufts - Tufts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tufts - Tufts</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

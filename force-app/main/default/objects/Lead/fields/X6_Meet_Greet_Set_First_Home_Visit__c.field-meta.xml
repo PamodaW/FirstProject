@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X6_Meet_Greet_Set_First_Home_Visit__c</fullName>
+    <externalId>false</externalId>
+    <formula>Time_Stamp_First_Home_Visit_Scheduled__c - Time_Stamp_Meet_Greet_Scheduled__c</formula>
+    <label>6 SOC Scheduled&lt;&gt;First Home Visit</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Were_records_requested__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When relevant to the individual’s current care, treatment, or services, as determined by the organization, the organization gathers behavioral and physical health information from both inpatient and outpatient providers who have treated the individual. When it is not possible to obtain this information, the organization documents the reason why it could not be obtained.</description>
+    <externalId>false</externalId>
+    <label>Were records requested?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

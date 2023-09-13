@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Hold_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>On Hold Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Current Long Term Sobriety</fullName>
+                <default>false</default>
+                <label>Current Long Term Sobriety</label>
+            </value>
+            <value>
+                <fullName>Clinical Barriers</fullName>
+                <default>false</default>
+                <label>Clinical Barriers</label>
+            </value>
+            <value>
+                <fullName>Awaiting Financial Agreement</fullName>
+                <default>false</default>
+                <label>Awaiting Financial Agreement</label>
+            </value>
+            <value>
+                <fullName>High Deductible</fullName>
+                <default>false</default>
+                <label>High Deductible</label>
+            </value>
+            <value>
+                <fullName>Hospitalized - Medical/Psych</fullName>
+                <default>false</default>
+                <label>Hospitalized - Medical/Psych</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Outside Current Catchment</fullName>
+                <default>false</default>
+                <label>Outside Current Catchment</label>
+            </value>
+            <value>
+                <fullName>Homeless</fullName>
+                <default>false</default>
+                <label>Homeless</label>
+            </value>
+            <value>
+                <fullName>Went to different LOC</fullName>
+                <default>false</default>
+                <label>Went to different LOC</label>
+            </value>
+            <value>
+                <fullName>Aetna</fullName>
+                <default>false</default>
+                <label>Aetna</label>
+            </value>
+            <value>
+                <fullName>Unwilling for tx at this time</fullName>
+                <default>false</default>
+                <label>Unwilling for tx at this time</label>
+            </value>
+            <value>
+                <fullName>HLOC VOB Only</fullName>
+                <default>false</default>
+                <label>HLOC VOB Only</label>
+            </value>
+            <value>
+                <fullName>Pending active insurance</fullName>
+                <default>false</default>
+                <label>Pending active insurance</label>
+            </value>
+            <value>
+                <fullName>Spanish Speaking</fullName>
+                <default>false</default>
+                <label>Spanish Speaking</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

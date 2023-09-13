@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Carrier_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Insurance Carrier Name</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aetna</fullName>
+                <default>false</default>
+                <label>Aetna</label>
+            </value>
+            <value>
+                <fullName>Ambetter</fullName>
+                <default>false</default>
+                <label>Ambetter</label>
+            </value>
+            <value>
+                <fullName>Anthem</fullName>
+                <default>false</default>
+                <label>Anthem</label>
+            </value>
+            <value>
+                <fullName>Beacon Health Options</fullName>
+                <default>false</default>
+                <label>Beacon Health Options</label>
+            </value>
+            <value>
+                <fullName>BCBS Other</fullName>
+                <default>false</default>
+                <label>BCBS Other</label>
+            </value>
+            <value>
+                <fullName>Cigna</fullName>
+                <default>false</default>
+                <label>Cigna</label>
+            </value>
+            <value>
+                <fullName>Connecticare</fullName>
+                <default>false</default>
+                <label>Connecticare</label>
+            </value>
+            <value>
+                <fullName>Harvard Pilgrim</fullName>
+                <default>false</default>
+                <label>Harvard Pilgrim</label>
+            </value>
+            <value>
+                <fullName>Humana</fullName>
+                <default>false</default>
+                <label>Humana</label>
+            </value>
+            <value>
+                <fullName>Magellan</fullName>
+                <default>false</default>
+                <label>Magellan</label>
+            </value>
+            <value>
+                <fullName>Medicaid/State Insurance</fullName>
+                <default>false</default>
+                <label>Medicaid/State Insurance</label>
+            </value>
+            <value>
+                <fullName>Medicare</fullName>
+                <default>false</default>
+                <label>Medicare</label>
+            </value>
+            <value>
+                <fullName>MED MUTUAL OF OHIO</fullName>
+                <default>false</default>
+                <label>MED MUTUAL OF OHIO</label>
+            </value>
+            <value>
+                <fullName>Oxford</fullName>
+                <default>false</default>
+                <label>Oxford</label>
+            </value>
+            <value>
+                <fullName>Tufts</fullName>
+                <default>false</default>
+                <label>Tufts</label>
+            </value>
+            <value>
+                <fullName>Unicare</fullName>
+                <default>false</default>
+                <label>Unicare</label>
+            </value>
+            <value>
+                <fullName>UnitedHealthCare</fullName>
+                <default>false</default>
+                <label>UnitedHealthCare</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

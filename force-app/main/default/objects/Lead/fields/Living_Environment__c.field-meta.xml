@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Living_Environment__c</fullName>
+    <externalId>false</externalId>
+    <label>Living Environment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Significant other</fullName>
+                <default>false</default>
+                <label>Significant other</label>
+            </value>
+            <value>
+                <fullName>Parent(s)</fullName>
+                <default>false</default>
+                <label>Parent(s)</label>
+            </value>
+            <value>
+                <fullName>Sober House</fullName>
+                <default>false</default>
+                <label>Sober House</label>
+            </value>
+            <value>
+                <fullName>Halfway House</fullName>
+                <default>false</default>
+                <label>Halfway House</label>
+            </value>
+            <value>
+                <fullName>Roommate</fullName>
+                <default>false</default>
+                <label>Roommate</label>
+            </value>
+            <value>
+                <fullName>Self</fullName>
+                <default>false</default>
+                <label>Self</label>
+            </value>
+            <value>
+                <fullName>Relative(s)</fullName>
+                <default>false</default>
+                <label>Relative(s)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

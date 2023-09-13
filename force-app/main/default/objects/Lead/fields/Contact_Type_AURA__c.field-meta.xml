@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Type_AURA__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact Type AURA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dentist</fullName>
+                <default>false</default>
+                <label>Dentist</label>
+            </value>
+            <value>
+                <fullName>Disability</fullName>
+                <default>false</default>
+                <label>Disability</label>
+            </value>
+            <value>
+                <fullName>Drug &amp; Alcohol Treatment Center</fullName>
+                <default>false</default>
+                <label>Drug &amp; Alcohol Treatment Center</label>
+            </value>
+            <value>
+                <fullName>EAP</fullName>
+                <default>false</default>
+                <label>EAP</label>
+            </value>
+            <value>
+                <fullName>Educational Consultant</fullName>
+                <default>false</default>
+                <label>Educational Consultant</label>
+            </value>
+            <value>
+                <fullName>Employer</fullName>
+                <default>false</default>
+                <label>Employer</label>
+            </value>
+            <value>
+                <fullName>Family</fullName>
+                <default>false</default>
+                <label>Family</label>
+            </value>
+            <value>
+                <fullName>Family Systems Therapist</fullName>
+                <default>false</default>
+                <label>Family Systems Therapist</label>
+            </value>
+            <value>
+                <fullName>Financial</fullName>
+                <default>false</default>
+                <label>Financial</label>
+            </value>
+            <value>
+                <fullName>Health Care Professional</fullName>
+                <default>false</default>
+                <label>Health Care Professional</label>
+            </value>
+            <value>
+                <fullName>Insurance Provider</fullName>
+                <default>false</default>
+                <label>Insurance Provider</label>
+            </value>
+            <value>
+                <fullName>Interventionist</fullName>
+                <default>false</default>
+                <label>Interventionist</label>
+            </value>
+            <value>
+                <fullName>Legal Organization</fullName>
+                <default>false</default>
+                <label>Legal Organization</label>
+            </value>
+            <value>
+                <fullName>Medical Records</fullName>
+                <default>false</default>
+                <label>Medical Records</label>
+            </value>
+            <value>
+                <fullName>Nutritionist/Dietician</fullName>
+                <default>false</default>
+                <label>Nutritionist/Dietician</label>
+            </value>
+            <value>
+                <fullName>Other Organization</fullName>
+                <default>false</default>
+                <label>Other Organization</label>
+            </value>
+            <value>
+                <fullName>Payor</fullName>
+                <default>false</default>
+                <label>Payor</label>
+            </value>
+            <value>
+                <fullName>Physician</fullName>
+                <default>false</default>
+                <label>Physician</label>
+            </value>
+            <value>
+                <fullName>Probation Officer</fullName>
+                <default>false</default>
+                <label>Probation Officer</label>
+            </value>
+            <value>
+                <fullName>Provider</fullName>
+                <default>false</default>
+                <label>Provider</label>
+            </value>
+            <value>
+                <fullName>Referent</fullName>
+                <default>false</default>
+                <label>Referent</label>
+            </value>
+            <value>
+                <fullName>School</fullName>
+                <default>false</default>
+                <label>School</label>
+            </value>
+            <value>
+                <fullName>Therapist</fullName>
+                <default>false</default>
+                <label>Therapist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intake_User_Validation</fullName>
+    <active>true</active>
+    <description>Prevent intake users from modifying status after VOB is requested.</description>
+    <errorConditionFormula>$Profile.Name  = &quot;Aware Intake User&quot; &amp;&amp; not (ISPICKVAL(Status__c, &quot;canceled&quot;)) &amp;&amp; not (ISPICKVAL(Status__c, &quot;new&quot;))</errorConditionFormula>
+    <errorMessage>You do not have permission to perform this action.</errorMessage>
+</ValidationRule>

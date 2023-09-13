@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Payer__c</fullName>
+    <externalId>false</externalId>
+    <label>Contract Payer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anthem</fullName>
+                <default>false</default>
+                <label>Anthem</label>
+            </value>
+            <value>
+                <fullName>Oxford</fullName>
+                <default>false</default>
+                <label>Oxford</label>
+            </value>
+            <value>
+                <fullName>Private Pay</fullName>
+                <default>false</default>
+                <label>Private Pay</label>
+            </value>
+            <value>
+                <fullName>Tufts</fullName>
+                <default>false</default>
+                <label>Tufts</label>
+            </value>
+            <value>
+                <fullName>BCBS of MA</fullName>
+                <default>false</default>
+                <label>BCBS of MA</label>
+            </value>
+            <value>
+                <fullName>Florida Blue</fullName>
+                <default>false</default>
+                <label>Florida Blue</label>
+            </value>
+            <value>
+                <fullName>Private Pay ($$$$)</fullName>
+                <default>false</default>
+                <label>Private Pay ($$$$)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

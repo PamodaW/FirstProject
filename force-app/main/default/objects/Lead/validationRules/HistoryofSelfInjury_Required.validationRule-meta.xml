@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HistoryofSelfInjury_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+History_of_Self_Injury__c = TRUE,
+ISBLANK(History_of_Self_Injury_Info__c)
+)</errorConditionFormula>
+    <errorDisplayField>History_of_Self_Injury_Info__c</errorDisplayField>
+    <errorMessage>Please enter info about the Client&apos;s History of Self Injury.</errorMessage>
+</ValidationRule>

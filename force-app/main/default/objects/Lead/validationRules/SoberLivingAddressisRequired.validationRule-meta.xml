@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SoberLivingAddressisRequired</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ Sober_Living__c = TRUE,
+ISBLANK( Insurance_Address__c )
+)</errorConditionFormula>
+    <errorDisplayField>Insurance_Address__c</errorDisplayField>
+    <errorMessage>Since you selected Sober Living, please enter an Other Address.</errorMessage>
+</ValidationRule>

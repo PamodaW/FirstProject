@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Substance_of_Choice__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Substance of Choice</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amphetamine (AMP)</fullName>
+                <default>false</default>
+                <label>Amphetamine (AMP)</label>
+            </value>
+            <value>
+                <fullName>Benzodiazepines (BZO)</fullName>
+                <default>false</default>
+                <label>Benzodiazepines (BZO)</label>
+            </value>
+            <value>
+                <fullName>Buprenorphine (BUP)</fullName>
+                <default>false</default>
+                <label>Buprenorphine (BUP)</label>
+            </value>
+            <value>
+                <fullName>Ethyl Alcohol (ETOH)</fullName>
+                <default>false</default>
+                <label>Ethyl Alcohol (ETOH)</label>
+            </value>
+            <value>
+                <fullName>Cocaine (COC)</fullName>
+                <default>false</default>
+                <label>Cocaine (COC)</label>
+            </value>
+            <value>
+                <fullName>Ecstacy (MDMA)</fullName>
+                <default>false</default>
+                <label>Ecstacy (MDMA)</label>
+            </value>
+            <value>
+                <fullName>Fentanyl (FEN)</fullName>
+                <default>false</default>
+                <label>Fentanyl (FEN)</label>
+            </value>
+            <value>
+                <fullName>Hallucinogens (LSD, Mushrooms)</fullName>
+                <default>false</default>
+                <label>Hallucinogens (LSD, Mushrooms)</label>
+            </value>
+            <value>
+                <fullName>Ketamine (KET)</fullName>
+                <default>false</default>
+                <label>Ketamine (KET)</label>
+            </value>
+            <value>
+                <fullName>Marijuana (THC)</fullName>
+                <default>false</default>
+                <label>Marijuana (THC)</label>
+            </value>
+            <value>
+                <fullName>Methadone (MTD)</fullName>
+                <default>false</default>
+                <label>Methadone (MTD)</label>
+            </value>
+            <value>
+                <fullName>Methamphetamine (METH/MAMP)</fullName>
+                <default>false</default>
+                <label>Methamphetamine (METH/MAMP)</label>
+            </value>
+            <value>
+                <fullName>Opiates (OPI)</fullName>
+                <default>false</default>
+                <label>Opiates (OPI)</label>
+            </value>
+            <value>
+                <fullName>Oxycodone (OXY)</fullName>
+                <default>false</default>
+                <label>Oxycodone (OXY)</label>
+            </value>
+            <value>
+                <fullName>Poly (POLY)</fullName>
+                <default>false</default>
+                <label>Poly (POLY)</label>
+            </value>
+            <value>
+                <fullName>Research Chemicals</fullName>
+                <default>false</default>
+                <label>Research Chemicals</label>
+            </value>
+            <value>
+                <fullName>Synthetics (K2, Spice, Bath Salts)</fullName>
+                <default>false</default>
+                <label>Synthetics (K2, Spice, Bath Salts)</label>
+            </value>
+            <value>
+                <fullName>Suboxone (SUB)</fullName>
+                <default>false</default>
+                <label>Suboxone (SUB)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

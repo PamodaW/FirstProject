@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>testMust_Use_Each_Status</fullName>
+    <active>false</active>
+    <description>Makes users go through each status in a lead</description>
+    <errorConditionFormula>CASE(Status,
+&quot;1-Lead Identified&quot;,1,
+&quot;2-Insurance Verification Completed&quot;,2,
+&quot;3-Intake Completed&quot;,3,
+&quot;4-BPS Completed&quot;,4,
+&quot;5-Clinical Clearance Completed&quot;,5,
+&quot;6-SOC Sceduled&quot;,6,
+&quot;7-SOC Complete&quot;,7,
+&quot;9-Unqualified&quot;,8,
+&quot;On Hold&quot;,9,
+&quot;Converted&quot;,10,
+0)
+&gt;
+CASE(PRIORVALUE(Status),
+&quot;1-Lead Identified&quot;,1,
+&quot;2-Insurance Verification Completed&quot;,2,
+&quot;3-Intake Completed&quot;,3,
+0) + 1</errorConditionFormula>
+    <errorMessage>Please make sure that &quot;Insurance Carrier Name&quot; is complete in order to move forward.</errorMessage>
+</ValidationRule>

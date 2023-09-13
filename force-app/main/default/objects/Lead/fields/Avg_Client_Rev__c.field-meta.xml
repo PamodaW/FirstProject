@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Avg_Client_Rev__c</fullName>
+    <externalId>false</externalId>
+    <label>Avg. Client Rev</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Admissions_Location__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>$27,249.44</fullName>
+                <default>false</default>
+                <label>$27,249.44</label>
+            </value>
+            <value>
+                <fullName>$26,001.37</fullName>
+                <default>false</default>
+                <label>$26,001.37</label>
+            </value>
+            <value>
+                <fullName>$23,817.25</fullName>
+                <default>false</default>
+                <label>$23,817.25</label>
+            </value>
+            <value>
+                <fullName>$24,492.33</fullName>
+                <default>false</default>
+                <label>$24,492.33</label>
+            </value>
+            <value>
+                <fullName>$21,929.18</fullName>
+                <default>false</default>
+                <label>$21,929.18</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Florida - Orlando</controllingFieldValue>
+            <controllingFieldValue>Florida - Jacksonville</controllingFieldValue>
+            <controllingFieldValue>Florida</controllingFieldValue>
+            <controllingFieldValue>Florida - Tampa</controllingFieldValue>
+            <valueName>$21,929.18</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connecticut</controllingFieldValue>
+            <valueName>$27,249.44</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Hampshire</controllingFieldValue>
+            <valueName>$26,001.37</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maine</controllingFieldValue>
+            <controllingFieldValue>Other (outside operational states)</controllingFieldValue>
+            <controllingFieldValue>Indiana</controllingFieldValue>
+            <controllingFieldValue>Rhode Island</controllingFieldValue>
+            <controllingFieldValue>Virginia</controllingFieldValue>
+            <valueName>$23,817.25</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Massachusetts</controllingFieldValue>
+            <valueName>$24,492.33</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
